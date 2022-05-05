@@ -3,7 +3,7 @@ require 'json'
 
 require './slack'
 
-slack = SlackAPIWrapper.new('xoxb-2022530838257-2100275514548-LXmNMUApIk8c0U0mQVHIvBgg')
+slack = SlackAPIWrapper.new('')
 
 # http://localhost:4567でブラウザからアクセスできる
 get '/' do
